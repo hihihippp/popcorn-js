@@ -31,6 +31,9 @@
         text,
         sub,
         rNewLine = /(?:\r\n|\r|\n)/gm;
+// /gm: g: globol, m: multiline
+// from:　http://stackoverflow.com/questions/22515220/difference-between-regex-gm-and-m-regex-g-in-perl-string-matching
+
 
     // Here is where the magic happens
     // Split on line breaks
